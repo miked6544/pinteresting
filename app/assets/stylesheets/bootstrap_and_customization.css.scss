@@ -28,17 +28,26 @@ $jumbotron-bg: 					rgb(250,255, 255);
 
 
 .jumbotron {
-    padding: 0.1em 0.1em;
+    padding: 0.0em 0.0em;
     h1 {
     	color: #000000 ;
-        font-size: 15em;
+        font-size: 12em;
        
     }
     p {
-        font-size: 3em;
+        font-size: .1em;
         .btn {
             padding: 0.0em;
         }
     }
 }
 
+.vertical-center > .container {
+  max-width: 100%;
+  background-color: gold;
+
+  display: inline-block;
+  vertical-align: middle;  /* vertical alignment of the inline element */
+                           /* reset the font property */
+  font: 1px/1 "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
