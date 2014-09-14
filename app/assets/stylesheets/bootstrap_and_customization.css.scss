@@ -2,13 +2,17 @@
 
 /* Font from https://www.google.com/fonts */
 
-$body-bg:  						rgb(20, 20, 20);
+@import url(http://fonts.googleapis.com/css?family=Kristi|Just+Another+Hand|La+Belle+Aurore|Zeyada|Amatic+SC|Nothing+You+Could+Do);
+
+/* Font from https://www.google.com/fonts */
+
+$body-bg:  						rgb(250 , 255, 255);
 $navbar-inverse-bg: 			#7f8c8d;
-$font-family-sans-serif:		'Lato';
+$font-family-sans-serif:		'Kristi';
 $navbar-height:					45px;
 $navbar-default-brand-color: 	#c0392b;
 $brand-primary: 				#2980b9;
-$jumbotron-bg: 					rgb(255, 255, 255);
+$jumbotron-bg: 					rgb(250,255, 255);
 
 /* Colors from http://flatuicolors.com */
 
@@ -21,3 +25,20 @@ $jumbotron-bg: 					rgb(255, 255, 255);
 .navbar-brand {
 	font-weight: bold;
 }
+
+
+.jumbotron {
+    padding: 0.1em 0.1em;
+    h1 {
+    	color: #000000 ;
+        font-size: 15em;
+       
+    }
+    p {
+        font-size: 3em;
+        .btn {
+            padding: 0.0em;
+        }
+    }
+}
+
